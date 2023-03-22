@@ -13,7 +13,7 @@ public class Worker : BackgroundService
     {
         while (!stoppingToken.IsCancellationRequested)
         {
-            logger.LogInformation("Hello Worker! {time}", DateTimeOffset.Now);
+            logger.LogInformation("Hello Worker!");
             await Task.Delay(1000, stoppingToken);
         }
     }

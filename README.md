@@ -1,4 +1,4 @@
-# ExampleService
+# dotnet-worker-service-systemd
 
 .NET worker service example for systemd.
 
